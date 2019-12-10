@@ -10,3 +10,11 @@
     java -version<br>
     sudo apt install default-jdk<br>
     javac -version<br>
+4. https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+    git config --global user.name "something name"
+    git config --global user.email something email
+    If error 403 remote: Permission to pavlo842/java_bh_19.git denied to Hollway.
+    fatal: unable to access 'https://github.com/pavlo842/java_bh_19.git/': The requested URL returned error: 403
+    W10  -> control panel > user accounts > credential manager > Windows credentials > Generic credentials
+       
+
