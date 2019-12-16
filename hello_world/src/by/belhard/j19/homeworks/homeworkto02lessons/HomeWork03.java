@@ -85,6 +85,39 @@ public class HomeWork03 {
 //            System.out.println();
 //        }
 
+
+        // Задача 8
+
+        // Пашет но не правильно
+
+/*        int[][] myArray = new int[4][0];
+        myArray[0] = new int[1];
+        myArray[1] = new int[2];
+        myArray[2] = new int[3];
+        myArray[3] = new int[4];
+
+        int k = 1;
+        for (int i = 0; i < myArray.length; i++) {
+            for (int j = 0; j < myArray[i].length; j++) {
+                myArray[i][j] = k * 2;
+                k++;
+                System.out.print(myArray[i][j] + " ");
+            }
+            System.out.println();
+        }*/
+
+
+        // Не пашет
+/*        for (int i = 0; i < myArray.length; i++) {
+            for (int j = 0; j < myArray[i].length; j++) {
+                myArray[0][0] = i * 2;
+                System.out.print(myArray[i][j]);
+            }
+            System.out.println();
+        }*/
+
+
+
     }
 
 }
