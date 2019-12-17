@@ -8,7 +8,7 @@ public class HomeWork03 {
 
         // Задача 1
 
-/*        int t = -15000;
+/*        int t = 48;
 
         String clothes = "";
 
@@ -25,6 +25,33 @@ public class HomeWork03 {
         }
 
         System.out.println(clothes);*/
+
+        // Задача 2
+
+/*        int salaryFirstPerson = 1000;
+
+        int salarySecondPerson = 517;
+
+        int salaryThirdPerson = 740;
+
+        int salaryDifference = 0;
+
+        if (salaryFirstPerson >= salarySecondPerson && salarySecondPerson >= salaryThirdPerson) {
+            salaryDifference = salaryFirstPerson - salaryThirdPerson;
+        } else if (salarySecondPerson >= salaryFirstPerson && salaryFirstPerson >= salaryThirdPerson) {
+            salaryDifference = salarySecondPerson - salaryThirdPerson;
+        } else if (salaryThirdPerson >= salaryFirstPerson && salaryFirstPerson >= salarySecondPerson) {
+            salaryDifference = salaryThirdPerson - salarySecondPerson;
+        } else if (salaryThirdPerson >= salarySecondPerson && salarySecondPerson >= salaryFirstPerson) {
+            salaryDifference = salaryThirdPerson - salaryFirstPerson;
+        } else if (salarySecondPerson >= salaryThirdPerson && salaryThirdPerson >= salaryFirstPerson) {
+            salaryDifference = salarySecondPerson - salaryFirstPerson;
+        } else if (salaryFirstPerson >= salaryThirdPerson && salaryThirdPerson >= salarySecondPerson) {
+            salaryDifference = salaryFirstPerson - salarySecondPerson;
+        } else {
+            System.out.println("Nothing happened!");
+        }
+        System.out.println(salaryDifference);*/
 
 
         // Задача 3
@@ -91,7 +118,7 @@ public class HomeWork03 {
         // Пашет но не правильно
 
 /*        int[][] myArray = new int[4][0];
-        myArray[0] = new int[1];
+        myArray[0] = new int[]{1};
         myArray[1] = new int[2];
         myArray[2] = new int[3];
         myArray[3] = new int[4];
@@ -99,7 +126,7 @@ public class HomeWork03 {
         int k = 1;
         for (int i = 0; i < myArray.length; i++) {
             for (int j = 0; j < myArray[i].length; j++) {
-                myArray[i][j] = k * 2;
+                myArray[i][j] = k * 1;
                 k++;
                 System.out.print(myArray[i][j] + " ");
             }
