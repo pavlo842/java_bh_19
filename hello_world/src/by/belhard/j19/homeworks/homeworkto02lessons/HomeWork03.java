@@ -65,6 +65,21 @@ public class HomeWork03 {
         System.out.print(degree);*/
 
 
+        // Задача 4
+
+/*        int startSum = 10000;
+
+        int proc = 12;
+
+        int years = 3;
+
+        for (int i = 0; i < years; i++) {
+            startSum += (startSum / 100) * proc;
+        }
+        System.out.println("Сумма вклада с учетом процентов по истечении "
+                            + years + " лет при ставке " + proc
+                            + " % годовых составит " + startSum + " рублей.");*/
+
         // Задача 5
 
 /*        int i;
