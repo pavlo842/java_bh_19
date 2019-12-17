@@ -2,6 +2,8 @@ package by.belhard.j19.homeworks.homeworkto02lessons;
 
 import org.w3c.dom.ls.LSOutput;
 
+import java.util.Arrays;
+
 public class HomeWork03 {
 
     public static void main(String[] args) {
@@ -120,12 +122,12 @@ public class HomeWork03 {
 
         // Задача 7
 
-//        for(int i = 1; i <= 10; i++) {
-//            for(int j = 1; j <= 10; j++) {
-//                System.out.print(i * j + "    ");
-//            }
-//            System.out.println();
-//        }
+/*        for(int i = 1; i <= 10; i++) {
+            for(int j = 1; j <= 10; j++) {
+                System.out.printf("%4d", (i * j));
+            }
+            System.out.println();
+        }*/
 
 
         // Задача 8
@@ -157,8 +159,6 @@ public class HomeWork03 {
             }
             System.out.println();
         }*/
-
-
 
     }
 
