@@ -30,15 +30,15 @@ public class HomeWork03 {
 
         // Задача 2
 
-/*        int salaryFirstPerson = 1000;
+/*         int salaryFirstPerson = 1000;
 
         int salarySecondPerson = 517;
 
         int salaryThirdPerson = 740;
 
-        int salaryDifference = 0;
+       int salaryDifference = 0;
 
-        if (salaryFirstPerson >= salarySecondPerson && salarySecondPerson >= salaryThirdPerson) {
+       if (salaryFirstPerson >= salarySecondPerson && salarySecondPerson >= salaryThirdPerson) {
             salaryDifference = salaryFirstPerson - salaryThirdPerson;
         } else if (salarySecondPerson >= salaryFirstPerson && salaryFirstPerson >= salaryThirdPerson) {
             salaryDifference = salarySecondPerson - salaryThirdPerson;
@@ -55,6 +55,22 @@ public class HomeWork03 {
         }
         System.out.println(salaryDifference);*/
 
+/*        int salaryFirstPerson = 1000;
+
+        int salarySecondPerson = 517;
+
+        int salaryThirdPerson = 740;
+
+        int min, max;
+        min = salaryFirstPerson;
+        if (salarySecondPerson < min)
+            min = salarySecondPerson;
+        max = salaryFirstPerson;
+        if (salaryThirdPerson > max)
+            max = salaryThirdPerson;
+        System.out.println(max - min);*/
+
+
 
         // Задача 3
         // degree = 2 * 2 * 2
@@ -65,6 +81,12 @@ public class HomeWork03 {
             degree *= 2;
         }
         System.out.print(degree);*/
+/*
+        int x = 2;
+        int y = 10;
+
+        double pow = Math.pow(x, y);
+        System.out.println(pow);*/
 
 
         // Задача 4
@@ -94,9 +116,19 @@ public class HomeWork03 {
 
 /*        int i;
         for (i = 1; i <= 100; i++) {
+//            if (i % 5 == 0 ^ i % 7 == 0)
             if (((i % 5 == 0) && !(i % 7 == 0)) || ((i % 7 == 0) && !(i % 5 == 0)))
                 System.out.print(i + " ");
         }*/
+
+        // i % 5 == 0 ^ i % 7 == 0
+
+        // Доп 2
+/*
+        for (i = 1; i <= 100; i++)
+            if (i / 10 % 2 == 0)
+                continue;
+*/
 
 
         // Задача 6
@@ -156,6 +188,24 @@ public class HomeWork03 {
             for (int j = 0; j < myArray[i].length; j++) {
                 myArray[0][0] = i * 2;
                 System.out.print(myArray[i][j]);
+            }
+            System.out.println();
+        }*/
+
+/*        int value = 1;
+        int size = 4;
+        int[][] array = new int[size][];
+        for (int i = 0; i < size; i++) {
+            array[i] = new int[i + 1];
+
+            for (int j = 0; j < array[i].length; j++) {
+                array[i][j] = value;
+                value *= 2;
+            }
+        }
+        for (int[] ints: array) {
+            for (int i: ints) {
+                System.out.print(i + " ");
             }
             System.out.println();
         }*/
