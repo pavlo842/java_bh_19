@@ -26,8 +26,5 @@ public class Aviation {
         System.out.println("Стоимость билета, чтобы покататься на " + model + " составляет " + cost + " $.");
     }
 
-    int growOld() {
-        return  ++vesselAge;
-    }
 
 }
