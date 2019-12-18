@@ -1,4 +1,4 @@
-package by.belhard.j19.homeworks.homeworkto02lessons;
+package by.belhard.j19.homeworks;
 
 import org.w3c.dom.ls.LSOutput;
 
