@@ -41,6 +41,10 @@ public class Main {
                             + airBoeing.yearOfIssue + " г." + ", возраст - "
                             + (year - airBoeing.yearOfIssue));
 
+        System.out.println(airBoeing.model + " относиться к типу - "
+                           + airBoeing.typeOfAviation.toString() + ", назначение - "
+                           + airBoeing.appointment.toString());
+
     }
 
 }
