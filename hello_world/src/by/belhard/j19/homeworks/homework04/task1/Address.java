@@ -5,4 +5,8 @@ public class Address {
     String street;
     int houseNumber;
 
+    @Override
+    public String toString() {
+        return " улица " + street + " дом " + houseNumber;
+    }
 }
