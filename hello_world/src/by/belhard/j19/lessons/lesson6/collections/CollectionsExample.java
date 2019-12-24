@@ -21,7 +21,7 @@ public class CollectionsExample {
         list.add(employee3);
         list.remove(0);
 
-        
+
     }
 
 }
