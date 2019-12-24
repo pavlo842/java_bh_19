@@ -18,3 +18,7 @@
     W10  -> control panel > user accounts > credential manager > Windows credentials > Generic credentials<br>
        
 
+ctrl + o = переопределение метода
+
+
+
