@@ -1,6 +1,7 @@
-package by.belhard.j19.lessons.lesson11;
+package by.belhard.j19.lessons.lesson12.prep.try2.entities;
 
 public class Specialty {
+
     private int id;
 
     private String specialty;

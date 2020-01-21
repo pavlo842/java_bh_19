@@ -6,8 +6,8 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args) throws SQLException {
 
-        DBManager dbManager = new DBManager();
+        EmployeesService employeesService = new EmployeesService();
 
-        Connection connection = dbManager.getConnection();
+        employeesService.addNewEmployee("Victor", 5000, 1);
     }
 }

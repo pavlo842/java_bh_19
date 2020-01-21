@@ -1,8 +1,9 @@
-package by.belhard.j19.lessons.lesson11;
+package by.belhard.j19.lessons.lesson12.prep.try2.entities;
 
 import java.util.Date;
 
 public class Employee {
+
     private int id;
 
     private String name;
